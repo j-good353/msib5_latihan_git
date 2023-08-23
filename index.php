@@ -4,11 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profil Saya</title>
-    <!-- Sertakan Bootstrap CSS di sini jika diperlukan -->
     <style>
         body {
             background-color: pink;
-            background-image: url('kucing.png'); /* Ganti 'kucing.png' dengan path gambar emoji kucing Anda */
             background-repeat: repeat;
         }
         .container {
@@ -66,7 +64,6 @@
             <label for="hobi">Hobi:</label>
             <p><?php echo $hobi; ?></p>
         </div>
-        <!-- Tambahkan informasi lainnya sesuai kebutuhan di sini -->
     </div>
 </body>
 </html>
